@@ -1,0 +1,104 @@
+/*
+Color palette
+
+Green       : #8AFF80
+Soft orange : #FFCA80
+Pink        : #FF80BF
+Purple      : #9580FF
+Orange      : #FF9580
+Yellow      : #FFFF80
+Black       : #15171B
+Gray        : #1D1E26
+*/
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Consolas, monospace, sans-serif;
+	font-size: 16px;
+	color: white;
+}
+
+
+
+	/* Header */
+
+
+#header {
+	display: flex;
+	align-items: center;
+
+	padding: 1rem;
+	height: 8vh;
+
+	background-color: #15171B;
+}
+
+/* Center the title and the hamburger menu */
+header > * {
+	margin-right: auto;
+}
+
+.hamburger {
+	display: flex;
+	flex-direction: column;
+
+	gap: 0.5rem;
+
+	margin-right: 1rem;
+}
+
+/* Drawing the 3-line menu (hamburger menu) */
+.hamburger > * {
+	width: 2.5rem;
+	height: 0.5rem;
+
+	background-color: white;
+}
+
+#page-title {
+	margin-left: auto;
+}
+
+
+
+	/* Main */
+
+main {
+	background-color: #1D1E26;
+
+	height: 92vh;
+}
+
+#navbar {
+	/* Layout */
+	position: absolute;
+	
+	top: 0px;
+	left: 0px;
+
+	z-index: 100;
+
+
+	/* Styling */
+	display: flex;
+
+	width: 5rem;
+	height: 100vh;
+
+	background-color: #15171B;
+
+}
+
+.navbar-icon {
+	width: 3rem;
+}
+
+/*.hidden {
+	display: none;
+}*/
